@@ -26,8 +26,8 @@ const Form = () => {
     
     return(
         <div>
-            <center>
-                    <form autoComplete='off' onSubmit={submitHandler}>
+            <center >
+                    <form autoComplete='off' onSubmit={submitHandler}> FORM
                         <input type="text" name="name" value={name} placeholder="Enter your name" onChange={getUserData} /><br />
                         <input type="email" name="email" value={email} placeholder="Enter your email" onChange={getUserData} /><br />
                         <input type="phone" name="phone" value={phone} placeholder="Enter your phone number " onChange={getUserData} /><br />
